@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+    <meta name="theme-color" content="#0d0b0a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="CLL" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon-180.png" />
+    <!-- Safari ignores SVG favicons, so the .ico (16/32/48, 16px hand-drawn on
+         the pixel grid) comes first; browsers that take SVG prefer the SVG. -->
+    <link rel="icon" href="./favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <title>Commander Loadout Ledger</title>
+    <!-- The app was built inside the Claude artifact host, whose stylesheet sets
+         border-box on everything. Without it, width:100% plus padding overflows
+         (the main column measured 422px in a 390px viewport). -->
+    <style>*,:before,:after{box-sizing:border-box}html,body,#root{background:#0d0b0a;min-height:100%;margin:0}html,body{overflow-x:hidden}</style>
+    <script type="module" crossorigin src="./assets/index-CLaECbG_.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
