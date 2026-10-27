@@ -1,0 +1,48 @@
+{
+  "name": "Commander Loadout Ledger",
+  "short_name": "CLL",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d0b0a",
+  "theme_color": "#0d0b0a",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start a game",
+      "short_name": "Game",
+      "url": "./?go=game"
+    },
+    {
+      "name": "Decks",
+      "url": "./?go=decks"
+    },
+    {
+      "name": "History",
+      "url": "./?go=history"
+    },
+    {
+      "name": "Stats",
+      "url": "./?go=stats"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import{Lo as e,kn as t,mo as n}from"./index-CQvgB2ts.js";function r(){try{return(n(`cll2:settings`)||{}).aiOff===!0}catch{return!1}}function i(){if(r()||!e())return!1;let i=n(t);return!!(i&&i.ai)}export{i as n,r as t};
