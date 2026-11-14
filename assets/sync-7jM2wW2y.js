@@ -1,0 +1,1 @@
+import{An as e,Qo as t,ko as n}from"./index-CKSkzFgD.js";function r(){try{return(n(`cll2:settings`)||{}).aiOff===!0}catch{return!1}}function i(){if(r()||!t())return!1;let i=n(e);return!!(i&&i.ai)}export{i as n,r as t};
