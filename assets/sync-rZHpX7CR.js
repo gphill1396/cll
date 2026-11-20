@@ -1,0 +1,1 @@
+import{Io as e,as as t,jn as n}from"./index-DNijKc17.js";function r(){try{return(e(`cll2:settings`)||{}).aiOff===!0}catch{return!1}}function i(){if(r()||!t())return!1;let i=e(n);return!!(i&&i.ai)}export{i as n,r as t};
